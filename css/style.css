@@ -1,0 +1,397 @@
+
+
+body{
+
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 16px;
+  line-height: 20px;
+
+}
+
+header{
+
+background-color: coral;
+
+padding: 0% ;
+padding-bottom: 0%;
+position: relative;
+
+
+}
+
+header h1{
+
+  color: aliceblue;
+  font-size: 400%;
+  font-style: italic;
+  font-weight: 400;
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+  left: 20%;
+  width: 70%;
+
+
+}
+
+nav{
+
+  background-color: chocolate;
+
+  margin-bottom: 2%;
+
+}
+
+
+nav ul{
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+nav ul li{
+
+  flex-grow: 1;
+
+  display: inline-block;
+  width: 16%;
+
+}
+
+nav ul li a{
+
+  color: aliceblue;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 0.2em 0.4em;
+
+}
+
+nav ul li a:hover{
+
+
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+footer{
+
+
+  background-color: coral;
+  clear: both;
+  color: aliceblue;
+  padding: 3em 0;
+  margin-top: 2em;
+  text-align: center;
+ margin-block-end: 0%;
+}
+
+
+nav ul li a.activo{
+
+background-color: cornflowerblue;
+
+}
+
+.holder{
+
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+h2{
+
+  color: blueviolet;
+  font-weight: 800;
+  
+ 
+
+}
+
+h3{
+
+color: brown;
+
+font-weight: 800;
+
+}
+
+.video{
+
+
+ border-radius: 80px 0 80px 0 ;
+ position: relative;
+ left: 45%;
+ width:35%;
+ top: 18px; ;
+
+}
+
+.imagenMarca{
+
+  position: relative;
+  right: 5%;
+  top: 25px; ;
+  border-radius:80px 0 80px 0;
+  width: 20%;
+}
+
+
+
+/*INICIO contacto*/
+.contactos{
+
+display: flex;
+flex-grow: 4;
+
+
+}
+
+.mapa{
+
+
+  margin-left: 20%;
+
+
+}
+
+.datoContacto{
+
+  margin-right: 0%;
+  padding-right: 0%;
+  width: 200% ;
+
+}
+
+
+/*FIN contacto*/
+
+/*INICIO socios*/
+
+.socio{
+
+
+
+
+display: inline;
+
+
+}
+
+.fotoSocio {
+  border: 2px solid black; 
+  border-radius: 40px 0 40px 0; 
+  margin: 2.5%;
+
+}
+
+
+
+
+
+/*FIN socios*/
+
+}
+
+}
+
+
+/*INICIO nosotros*/
+
+
+
+.nosImg{
+
+width: 20%;
+
+
+}
+
+.nosTexto{
+
+
+  width: 50%;
+
+  margin-right: 10%;
+
+}
+.nos{
+
+display: flex;
+
+justify-content: space-between;
+
+
+}
+
+/*FIN nosotros*/
+
+
+
+
+/*INICIO Home*/
+
+.imagenBienvenida{
+
+  width: 65%; 
+ 
+
+  }
+  
+  .textoBienvenida{
+  
+  
+    width: 40%;
+  
+    margin-right: 8%;
+  
+  }
+  .Bienvenidos{
+  
+  display: flex;
+  
+  justify-content: space-between;
+  
+  
+  }
+
+
+/*FIN Home*/
+
+
+
+
+
+/*INICIO destino*/
+
+
+
+
+
+.fichaDestinoImg {
+
+  position: relative;
+  margin: 2%;
+  margin-left: 22%;
+
+
+  width: 90%;
+ 
+}
+
+.fichaDestino {
+
+  background-color: rgba(255, 191, 0, 0.833);
+
+  border-radius: 80px 0 80px 0;
+
+  display: flex;
+  
+  justify-content: space-between;
+
+  margin: 2%;
+}
+.fichaDestinoTexto {
+
+width: 100%;
+}
+
+.destinoImg{
+
+  border-radius: 0px 0 80px 0; 
+
+}
+
+.destinoText {
+
+margin: 30%;
+width: 200%;
+}
+
+.boton{
+
+background-color: rgb(245, 71, 71);
+margin-left: 80%;
+
+}
+
+.botonA {
+
+color: rgb(105, 63, 4);
+
+text-decoration: none;
+
+font-size: large;
+
+
+
+
+}
+
+.botonA:hover {
+
+
+
+  color: gold;
+
+  width: 20%;
+
+}
+
+
+
+
+
+
+
+
+.botonSiguiente{
+
+background-color: chocolate;
+
+  margin: 5%;
+
+  margin-left: 45%;
+
+  border-color: chocolate;
+  
+  }
+  
+  .botonASiguiente {
+  
+  color: rgb(248, 247, 246);
+
+
+  
+  text-decoration: none;
+  
+  font-size: large;
+  
+  
+  
+  
+  }
+  
+  .botonASiguiente:hover {
+  
+
+ 
+    color: rgb(236, 164, 8);
+  
+    width: 500%;
+  
+  }
+  
+  
+
+
+
+
+/*FIN destino*/
+
+
